@@ -2,6 +2,8 @@ module github.com/demonkingswarn/fast-cli
 
 go 1.26
 
+v0.0.1
+
 require github.com/spf13/cobra v1.9.1
 
 require (
