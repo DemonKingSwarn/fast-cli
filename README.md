@@ -9,14 +9,14 @@ A command-line tool to test your internet speed using fast.com.
 ```bash
 git clone https://github.com/DemonKingSwarn/fast-cli.git
 cd fast-cli
-go build -o fast .
+go build -o fast-cli .
 mv fast ~/.local/bin/
 ```
 
 ### Using Go install
 
 ```bash
-go install github.com/DemonKingSwarn/fast-cli@latest
+go install github.com/demonkingswarn/fast-cli@latest
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ go install github.com/DemonKingSwarn/fast-cli@latest
 Run a speed test:
 
 ```bash
-fast
+fast-cli
 ```
 
 The test will display download and upload speeds along with latency measurements.
@@ -39,7 +39,7 @@ The test will display download and upload speeds along with latency measurements
 Basic speed test:
 
 ```bash
-$ fast
+$ fast-cli
 download: 350.5 Mbps
 upload: 280.2 Mbps
 
@@ -49,7 +49,7 @@ Latency: 12 ms (unloaded) / 15 ms (loaded)
 JSON output:
 
 ```bash
-$ fast --json
+$ fast-cli --json
 {
   "downloadSpeed": 350.5,
   "uploadSpeed": 280.2,
