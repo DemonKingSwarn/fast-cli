@@ -1,4 +1,4 @@
-module github.com/demonkingswarn/fast-cli v0.0.2
+module github.com/demonkingswarn/fast-cli 
 
 go 1.26
 
