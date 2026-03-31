@@ -10,17 +10,8 @@ A command-line tool to test your internet speed using fast.com.
 git clone https://github.com/DemonKingSwarn/fast-cli.git
 cd fast-cli
 go build -o fast .
-```
-
-Move the binary to your path:
-
-```bash
-mkdir -p ~/.local/bin
 mv fast ~/.local/bin/
-export PATH="$HOME/.local/bin:$PATH"
 ```
-
-Add the export line to your shell profile (~/.bashrc, ~/.zshrc, etc.) to make it permanent.
 
 ### Using Go install
 
