@@ -1,4 +1,4 @@
-module github.com/nicholas-fedor/go-fast-cli
+module github.com/demonkingswarn/fast-cli
 
 go 1.26
 
