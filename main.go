@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nicholas-fedor/go-fast-cli/core"
+	"github.com/demonkingswarn/fast-cli/core"
 	"github.com/spf13/cobra"
 )
 
-var version = "v0.1.0"
+var version = "v0.0.3"
 
 var RootCmd = &cobra.Command{
 	Use:   "fast",
