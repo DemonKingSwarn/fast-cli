@@ -80,3 +80,4 @@ The test runs automatically in sequence: latency, then download, then upload.
 ## License
 
 GNU General Public License v3 (GPLv3)
+ 
